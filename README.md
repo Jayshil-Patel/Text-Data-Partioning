@@ -10,7 +10,7 @@ Requests
 3. Run the script by executing 'Text_Data_Partioning.ipynb' in the command line
 4. The script will return a single DataFrame containing the sampled text partitions and their corresponding labels.
 ## Code
-```
+```python
 book_urls = ['http://www.gutenberg.org/files/1342/1342-0.txt', 'http://www.gutenberg.org/files/84/84-0.txt']
 labels = ['Pride and Prejudice', 'Frankenstein']
 df = sample_books(book_urls, labels)
